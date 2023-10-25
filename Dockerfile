@@ -1,4 +1,4 @@
 FROM ubuntu:latest
 LABEL authors="wudan"
 
-ENTRYPOINT ["top", "-b"]
+ENTRYPOINT ["wechat-cloud-for-fishing.main.jar", "-b"]
